@@ -26,17 +26,15 @@ public class selectCptCodes extends BaseClass{
 		Thread.sleep(2000);
 	    cpt.click();
 	    cpt53.click();
-	    Thread.sleep(2000);
 	    JavascriptExecutor jS=(JavascriptExecutor)driver;
 		jS.executeScript("arguments[0].scrollIntoView(true);", cp54);
 		cpt54.click();
-		Thread.sleep(2000);
 		JavascriptExecutor j=(JavascriptExecutor)driver;
 		j.executeScript("arguments[0].scrollIntoView(true);", cp74);
 		cpt74.click();
-		Thread.sleep(2000);  
 		String text=month.getText();
 		System.out.println(text);
 	}
 }
+
 
