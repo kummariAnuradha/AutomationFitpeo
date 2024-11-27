@@ -74,17 +74,17 @@ Test 1: Navigates to the "home" page.
 Test 2: Navigates to the "revenue" page.
 
 ScrollPage and ScrollTest class Functionalities:
-1.scrollPage Class: Handles scrolling functionality.
+1.scrollPage Class: Handles scrolling functionality until the slider is visible.
 2. scrollTest Class: Runs tests to navigate to a page and perform scrolling.
 
 SliderPage and SliderTest class Functionalities:
-1. sliderPage Class: Handles slider adjustments.
+1. sliderPage Class: Handles slider adjustments and sets value to 820.
 2. sliderTest Class: Runs test cases for navigation, scrolling, and adjusting the slider.
 
 UpdateTextfieldPage and UpdateTextFieldTest class Functionalities:
-1. updateTextFieldPage Class: Handles updating the text field.
-2. updateTextFieldTest Class: Runs tests to navigate, scroll, update the text field, and take a screenshot.
+1. updateTextFieldPage Class: Handles updating the text field to 520.
+2. updateTextFieldTest Class: Runs tests to navigate, scroll, update the text field, and take a screenshot to validate the slider Position.
 
 selectCptCodes and cptCodesSelectTest class Functionalities:
 1.selectCptCodes Class: Handles checkbox selection and scrolling.
-2. cptCodeSelectTest Class: Runs tests to navigate to a page and perform the checkbox selections.
+2. cptCodeSelectTest Class: Runs tests to navigate to a page and perform the checkbox selections and validates Total Recurring Reimbursement.
