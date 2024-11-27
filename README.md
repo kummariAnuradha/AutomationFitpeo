@@ -64,3 +64,27 @@ Properties: props: A static Properties object used to store configuration values
 Example config.properties: browser=firefox url=https://fitpeo.com/
 
 Usage Extend the BaseClass in your test classes. Override the initialization() method if you need to customize the setup process. Use the driver object in your test methods to interact with the browser.
+
+NavigatePage and Navigate Classes functionalities:
+1. NavigatePage Class: Handles webpage navigation using Selenium.
+2. Navigate Test Class: Sets up tests to navigate to different pages using NavigatePage.
+3. Test Flow:
+Setup: Initializes WebDriver and NavigatePage.
+Test 1: Navigates to the "home" page.
+Test 2: Navigates to the "revenue" page.
+
+ScrollPage and ScrollTest class Functionalities:
+1.scrollPage Class: Handles scrolling functionality.
+2. scrollTest Class: Runs tests to navigate to a page and perform scrolling.
+
+SliderPage and SliderTest class Functionalities:
+1. sliderPage Class: Handles slider adjustments.
+2. sliderTest Class: Runs test cases for navigation, scrolling, and adjusting the slider.
+
+UpdateTextfieldPage and UpdateTextFieldTest class Functionalities:
+1. updateTextFieldPage Class: Handles updating the text field.
+2. updateTextFieldTest Class: Runs tests to navigate, scroll, update the text field, and take a screenshot.
+
+selectCptCodes and cptCodesSelectTest class Functionalities:
+1.selectCptCodes Class: Handles checkbox selection and scrolling.
+2. cptCodeSelectTest Class: Runs tests to navigate to a page and perform the checkbox selections.
